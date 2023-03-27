@@ -15,6 +15,5 @@ $(document).ready(() => {
       reader.readAsDataURL(file);
     }
   });
-
-
 });
+
