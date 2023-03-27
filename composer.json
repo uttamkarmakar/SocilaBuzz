@@ -1,0 +1,16 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "zoonman/linkedin-api-php-client": "^0.0.14",
+        "hybridauth/hybridauth": "^3.9",
+        "phpmailer/phpmailer": "^6.8"
+    },
+    "autoload": {
+        "classmap": [
+          "application/models/Validations.php",
+          "application/models/UserDetails.php",
+          "application/models/Database/config.php",
+          "application/models/Database/Database.php"  
+        ]
+      }
+}
